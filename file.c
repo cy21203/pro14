@@ -9,7 +9,7 @@ int main() {
 	fd = open("test.txt", O_RDONLY); // 最初に必ずファイルを開く
 	val = fd;
 	if(val < 0){
-		perror("コメント:");
+		perror("こめんと:");
 		exit(1);
 	}
 	val = read(fd, buff, 10); // ファイルからデータを読む
